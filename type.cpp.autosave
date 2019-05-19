@@ -1,0 +1,6 @@
+#include "perstype.h"
+
+Template::Template(QObject *parent) : QObject(parent)
+{
+
+}

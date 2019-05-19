@@ -1,0 +1,106 @@
+MainWin
+{
+	min-width:1000px;
+	min-height:600px;
+}
+QGraphicsView
+{
+
+}
+TemplateForm
+{
+	background-color:rgba(0,0,15,0.3);
+	border-radius:5px;
+}
+QComboBox
+{
+	font-size:20px;
+}
+
+QCompleter
+{
+	font-size:18px;
+}
+
+QLabel
+{
+	background-color:rgb(0,0,16);
+	color:rgb(230,230,230);
+	padding:5px;
+	font-size:20px;
+	border-radius:5px;
+}
+QLabel#errorLabel
+{
+	color:red;
+	background-color:rgb(255,255,255,0.1);
+	font-size:18px;
+}
+
+QLineEdit
+{
+	min-height:30px;
+	font-size:20px;
+	color:rgb(180,180,180);
+}
+
+QMenuBar
+{
+	color:white;
+	font: bold 16px;
+	background-color:rgb(10,0,0);
+}
+
+QStatusBar
+{
+	min-width:30px;
+	color:rgb(255,255,255);
+	font:bold 25px  Courier New;
+	background-color:rgb(0,0,0);
+	
+}
+QPlainTextEdit
+{
+	font-size:14px;
+	background-color:rgba(200,200,200,0.7);
+}
+QPushButton
+{
+	padding:5px;
+	background-image:url(:/images/background/saturn.jpg);
+	color:rgb(30,30,0);
+	font:bold italic 20px Courier New;
+	border-radius:5px;
+	max-width:250px;
+
+}
+QPushButton:hover
+{
+	
+	border:0px solid rgb(13,165,162);
+	background-color:qradialgradient(cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4, radius: 1.35, stop: 0 rgba(13,165,162,0.4), stop: 1 rgba(13,165,162,0.4));
+	font-size:25px;
+}
+
+QPushButton:disabled
+{
+	padding:5px;
+	background-color:rgb(120,120,120);
+}
+
+QGroupBox
+{
+	background-color:rgba(0,0,15,0.2);
+}
+QTextBrowser
+{
+	background-color:rgba(200,200,200,0.8);
+	font-size:12px;
+	min-width:21cm;
+	min-height:29.7cm;
+}
+QToolBar
+{
+	background-color:rgb(0,0,20);	
+}
+
